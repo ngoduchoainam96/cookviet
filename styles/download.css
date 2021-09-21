@@ -1,0 +1,12 @@
+.downloadbtn{
+    background: red;
+    color: white;
+    border-radius: 4px;
+}
+.downloadbtn:hover{
+    background: green
+}
+.downloadbtn a{
+    color: white;
+    text-decoration: none;
+}

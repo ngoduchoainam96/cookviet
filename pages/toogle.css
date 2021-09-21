@@ -1,0 +1,27 @@
+.slide-enter {
+    transform: translateY(-100%);
+    transition: .3s cubic-bezier(0, 1, 0.5, 1);
+}
+    .slide-enter-active {
+      transform: translateY(0%);
+    }
+  
+  
+  .slide-leave {
+    transform: translateY(0%);
+    transition: .3s ease-in-out;
+  }
+    .slide-leave-active {
+      transform: translateY(-100%);
+    }
+  
+  
+  /*
+    CSS for the submenu container needed to adjust the behavior to our needs.
+    Try commenting out this part to see how the animation looks without the container involved.
+  */
+  
+  .component-container {
+    height:20px;
+    min-width: 100px
+  }

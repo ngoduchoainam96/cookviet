@@ -1,0 +1,12 @@
+.chatbutton{
+    background: red;
+    color: white;
+    border-radius: 4px;
+}
+.chatbutton:hover{
+    background: green;
+}
+.chatbutton a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,145 @@
+.post_button{
+    background: red;
+    color: white;
+    border-radius: 3px;
+    margin-left: 700px;
+}
+.post_button a{
+    color:white;
+    text-decoration: none;
+}
+.forumtitle{
+    color: #315488
+}
+.forumtitle:hover{
+    color: #f3902f;
+}
+.foruminput{
+    border-radius: 4px;
+    padding: 8px;
+    word-wrap: break-word;
+    width: 97%;
+}
+.forumform{
+    text-align: center;
+}
+.forumcontent{
+    border-radius: 4px;
+    width: 97%;
+}
+.postbutton{
+    background: red;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Be Vietnam','Segoe UI','Helvetica Neue',Helvetica,Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans',sans-serif;
+}
+.post_button:hover{
+    background: green;
+}
+.forumhr{
+    color: red;
+    float: left;
+    margin-left: 200px;
+    size: 1000px;
+    width: 1px;
+}
+.forumimg{
+    margin-left: 10px;
+}
+.forumtime{
+    margin-left: 700px;
+}
+.noText{
+	color: transparent;
+    text-indent: -9999px;
+    width: 200px; /* set width */
+    height: 25px; /* fixed height */
+    *margin-left: 9999px; /* IE6 only */
+    font-size: 0px;
+    line-height: 16px; /* retains height */
+	background: url('http://imgur.com/I0EwG.png') no-repeat;
+    border: none;
+}
+.replyform{
+    background: #e2e3e5;
+
+}
+.repform{
+    border-radius: 4px;
+    margin-left: 50px;
+    height: 150px;
+    width: 800px
+}
+#replybutton{
+    float: right;
+    border-radius: 4px;
+}
+#frcontent{
+    margin-left: 30px;
+}
+.frimg{
+    width: 200px;
+}
+.repformtotal{
+    display: flex;
+}
+.hide {
+  display: none;
+  text-align: center;
+  width: 185px;
+  margin: 1em auto;
+  background: #ebeced;
+  bottom: 0;
+  left: 0;
+  position: relative;
+  right: 0;
+  text-align: center;
+  top: 0;
+  padding: 1em .75em;
+  max-width: 500px;
+  width: 90%;
+  overflow: hidden;
+  transform: scale(0.5);
+  transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  opacity: 1;
+  z-index: 800;
+  visibility: visible;
+}
+.frimg:hover + .hide {
+  display: block;
+  color: #23497c;
+  text-align: center;
+  width: 185px;
+  margin: 1em auto;
+  background: #ebeced;
+  bottom: 0;
+  left: 0;
+  position: relative;
+  right: 0;
+  text-align: center;
+  top: 0;
+  padding: 1em .75em;
+  max-width: 500px;
+  width: 90%;
+  overflow: hidden;
+  transform: scale(1);
+  transition: all 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  opacity: 1;
+  z-index: 800;
+  visibility: visible;
+}
+.avatar-frame {
+  border: 2px solid #07B288;
+}
+.avatar-frame, .avatar-frame img {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin: 0 auto;
+}
+.about-wrapper {
+  width: 185px;
+  height: 227px;
+  position: relative;
+}
+    
